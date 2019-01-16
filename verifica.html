@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			.col-1 {width: 10%;}
+			.col-2 {width: 15%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 35%;}
+			.col-5 {width: 40%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 60%;}
+			.col-8 {width: 70%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 80%;}
+			.col-11 {width: 90%;}
+			.col-12 {width: 100%;}
+		
+			[class*="col-"] {
+				float: left;
+				padding: 30px;
+			}
+			ul {
+				list-style-type: none;
+				margin: 100;
+				padding: 100;
+			}
+			li {
+				padding: 8px;
+				margin-bottom: 7px;
+				background-color : #b4b4b4;
+				color: #3c3c3c;
+				box-shadow: 1px 1px rgba(60, 60, 60), 0 1px 1px rgba(60, 60, 60);
+			}
+			header{
+				background-color: #3c3c3c;
+			}
+			footer{
+				background-color: #3c3c3c;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="col-12">
+			Chania
+		</header>
+		<section class="row">
+			<nav class="col-3">
+			<ul class= "ul">
+				<li>the flight</li>
+				<li>the city</li>
+				<li>the island</li>
+				<li>the food</li>
+			</ul>
+			</nav>
+		</section>
+		<footer class="col-12">
+			resize the browser window to see how the content respond to resizing
+		</footer>
+	</body>
+</html>
